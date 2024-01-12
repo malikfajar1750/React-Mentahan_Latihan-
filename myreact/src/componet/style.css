@@ -1,0 +1,46 @@
+/* .Background{
+    background-color: rgb(67, 143, 209);
+} */
+.App_h3{
+    float: inline;
+    display: block;
+    /* padding: 12px 13px; */
+    padding-right: 20px;
+    margin-bottom: 10px ; 
+}
+/* button{
+    background-color: rgb(32, 19, 19);
+    color: #ffffff;
+    padding-block: 10px;
+    padding-inline: 20px;
+} */
+button{
+    --color: #28574a;
+    padding: 0.8em 1.1em;
+    background-color: transparent;
+    border-radius: .1em;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    transition: .5s;
+    font-weight: 10;
+    font-size: 14px;
+    border: 1px solid;
+    font-family: inherit;
+    text-transform: uppercase;
+    color: var(--color);
+    z-index: 1;
+}
+img{
+    position: fixed;
+    display: block;
+    padding-block: 2em;
+   margin-inline: 20rem; 
+   margin-top: 10px;
+   max-width: 120vh;
+   height: auto;
+   background-position: center;
+   position: sticky;
+   top: 50px;
+  
+} 

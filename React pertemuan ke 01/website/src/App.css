@@ -1,0 +1,83 @@
+.App {
+  text-align: center;
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  
+}
+
+/* .App-logo {
+  height: 40vmin;
+  pointer-events: none;
+} */
+
+html{
+  font-family:  Helvetica;
+  background-color: #436672;
+  color: aliceblue;
+  box-sizing: border-box;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+h1  {
+  margin-top: 0.4em;
+  font-size: 20px;
+  text-align: center;
+}
+
+.Head_2 ,h2 {
+  margin-top: 2em;
+
+}
+button{
+  /* margin-block: 0.1em; */
+
+  background-color: #FFFFFF;
+  border: 2px solid #222222;
+  border-radius: 9px;
+  box-sizing: border-box;
+  color: #5a3737;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 20px;
+  margin: 0;
+  outline: none;
+  padding: 12px 23px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  touch-action: manipulation;
+  transition: box-shadow .2s,-ms-transform .1s,-webkit-transform .1s,transform .1s;
+  user-select: none;
+  -webkit-user-select: none;
+  width: auto;
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: none;
+}
+img ,.Head_Profile{
+  border-radius: 100px;
+  padding: 12px ;
+  margin-block: 1px;
+}
+.Head_Profile{
+  margin-top: 100px;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
